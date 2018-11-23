@@ -77,19 +77,19 @@
 				</configuration>
 			</plugin>
 
-			<!-- <plugin> <groupId>org.apache.tomcat.maven</groupId> <artifactId>tomcat7-maven-plugin</artifactId> 
-				<version>2.2</version> <configuration> <port>8085</port> <path>/</path> </configuration> 
-				</plugin> -->
-
 			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>2.0.2</version>
+				<groupId>org.apache.tomcat.maven</groupId>
+				<artifactId>tomcat7-maven-plugin</artifactId>
+				<version>2.2</version>
 				<configuration>
-					<source>1.8</source>
-					<target>1.8</target>
+					<port>8085</port>
+					<path>/</path>
 				</configuration>
 			</plugin>
+
+			<!-- <plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-compiler-plugin</artifactId> 
+				<version>2.0.2</version> <configuration> <source>1.8</source> <target>1.8</target> 
+				</configuration> </plugin> -->
 		</plugins>
 	</build>
 
