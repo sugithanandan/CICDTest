@@ -37,7 +37,7 @@
 
 				<tr>
 					<td>Last Name :</td>
-					<td><input type="text" name="lastname" value="" size="50" /></td>
+					<td><input type="text" name="lasttname" value="" size="50" /></td>
 				</tr>
 
 				<tr>
